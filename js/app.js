@@ -14,24 +14,6 @@ $(document).foundation();
 // }
 // });
 
-
-// Instagram Feed Preferences
-$(function() {
-    //Set up instafeed
-    var feed = new Instafeed({
-        clientId: 'ebbda816dd2e462195375df6a4def1bd',
-        target: 'instafeed',
-        get: 'user',
-        userId: 176341126,
-        accessToken: '176341126.467ede5.a548f7aeb8d64580aa82b56d6ca44277',
-        resolution: 'low_resolution',
-        sortBy: 'most-liked',
-        limit: 12
-    });
-    feed.run();
-});
-
-
 // offcanvas nav preferences
 $(document).foundation({
   offcanvas : {
